@@ -1,0 +1,49 @@
+body{
+    background-color:white;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+/*Estilos generales*/
+.button {
+   
+   display: inline-block;
+   font-size: 1.25em;
+   margin: 20px;
+   padding: 10px 0px;
+   text-align: center;
+   text-decoration: none;
+}
+.button span {
+    margin-right: 10px;
+}
+
+
+/*Colores*/
+.button.verde{
+    background: #17AB2B;
+    box-shadow: 0px 2px 0px #266792;
+}
+.button.blue{
+    background: #0E7BF6;
+    box-shadow: 0px 3px 0px #266792;
+}
+.button.rojo{
+    background: #F60E58;
+    box-shadow: 0px 3px 0px #266792;
+}
+/*Tamaños*/
+.button.large{
+    width: 250px;
+}
+/*Efectos*/
+.button.radius{
+    border-radius: 50px;
+}
+
+.button.hover{
+box-shadow: 0px 0px 0px;
+padding-top: 7px;    
+}

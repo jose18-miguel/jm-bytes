@@ -1,0 +1,40 @@
+body {
+    margin: 10px;
+    background: #fff;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+a{
+    color: gray;
+}
+
+.cuadro{
+    display: block;
+    padding: 10px;
+    margin: 0 0 10.5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #303030;
+    background-color: #ebebeb;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+#imagen{
+    max-width: 100%; 
+    height: auto;;
+}
